@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link href="css/styleMain.css" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" ref="stylesheet">
+  <title>Frontend Mentor | E-commerce product page</title>
+
+  <!--      -->
+</head>
+
+<body>
+  <div id="side-bar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="images/icon-close.svg" alt=""></a>
+
+    <nav>
+      <ul id="side-nav">
+        <li><a href="#">Collections</a></li>
+        <li><a href="#">Men</a></li>
+        <li><a href="#">Women</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <script>
+    function openNav() {
+      document.getElementById("side-bar").style.width = "250px";
+    }
+
+    function closeNav() {
+      document.getElementById("side-bar").style.width = "0";
+    }
+  </script>
+  <main>
+    <header>
+      <button class="openbtn" onclick="openNav()"><img src="images/icon-menu.svg" alt=""></button>
+      <a href="#"><img src="images/logo.svg" alt="logo" class="logo" height="20px" width="138px"></a>
+
+      <nav>
+        <ul id="nav">
+          <li><a href="#">Collections</a></li>
+          <li><a href="#">Men</a></li>
+          <li><a href="#">Women</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="profile-sect">
+        <a href="#" class="cart"><img src="images/icon-cart.svg" alt="cart" height="20px" width="22px">
+        </a>
+        <a href="#" class="user"><img src="images/image-avatar.png" alt="user" height="40px" width="40px"
+            class="user"></a>
+
+        <div class="submenu">
+          <div class="cart-container">
+            <h4>Cart</h4>
+            <h5>Your cart is empty</h5>
+          </div>
+        </div>
+      </div>
+
+    </header>
+
+    <section class="container">
+      <div class="S1">
+        <div class="left-side">
+          <img src="images/image-product-1.jpg" alt="product-1" class="main-product" height="380px" width="400px">
+
+          <div class="product-thumb">
+            <div class="thumb"><img src="images/image-product-1-thumbnail.jpg" alt=""></div>
+
+            <div class="thumb"><img src="images/image-product-2-thumbnail.jpg" alt=""></div>
+
+            <div class="thumb"><img src="images/image-product-3-thumbnail.jpg" alt=""></div>
+
+            <div class="thumb"><img src="images/image-product-4-thumbnail.jpg" alt=""></div>
+          </div>
+        </div>
+
+        <div class="right-side">
+          <h5>Sneaker Company</h5>
+          <h1>Fall Limited Edition<br> Sneakers</h1>
+
+          <p class="describe">These low-profile sneakers are your perfect casual wear companion. Featuring a
+            durable rubber outer sole, they’ll withstand everything the weather can offer.
+          </p>
+
+          <div class="pricing-sect">
+            <h2>$125.00 <span>50%</span></h2>
+
+            <p><strike>$250.00</strike></p>
+          </div>
+
+          <div class="purchase">
+            <div class="amount">
+              <button type="button" id="dec-btn"><img src="images/icon-minus.svg" alt="" height="4px"
+                  width="12px"></button>
+              <p><output id="output">0</output></p>
+              <button type="button" id="inc-btn"><img src="images/icon-plus.svg" alt="" height="12px"
+                  width="12px"></button>
+            </div>
+
+            <a href="#" class="add-to-cart">
+              <img src="images/icon-cart.svg" alt="cart" height="16px" width="18px">
+              <p>Add to cart</p>
+            </a>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script>
+    $(function () {
+      $(".cart").click(function () {
+        $(".submenu").slideToggle(200);
+      });
+    });
+  </script>
+  <script src="scripts/incJS.js"></script>
+</body>
+
+</html>
