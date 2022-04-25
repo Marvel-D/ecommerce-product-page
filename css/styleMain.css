@@ -94,7 +94,6 @@ header {
 
 .container {
   padding: 0 20px;
-  border: 2px solid green;
 }
 .S1 {
   display: flex;
@@ -107,7 +106,6 @@ header {
 .left-side {
   width: 50%;
   margin-left: 50px;
-  border: 1px solid blue;
 }
 .main-product {
   border-radius: 10px;
@@ -134,7 +132,6 @@ header {
   width: 50%;
   margin-top: 90px;
   margin-right: 100px;
-  border: 1px solid blue;
 }
 .right-side h5 {
   margin-bottom: 10px;
@@ -217,9 +214,6 @@ button {
   background-color: transparent;
 }
 
-
-
-
 /* size max 599px*/
 @media screen and (max-width: 599px) {
   #side-bar {
@@ -290,7 +284,6 @@ button {
     color: hsl(219, 9%, 45%);
   }
   .container {
-    border: 1px solid black;
     padding: 0;
   }
   .S1 {
@@ -317,7 +310,6 @@ button {
   /*right side*/
 
   .right-side {
-    border: 1px solid goldenrod;
     width: 100%;
     margin-top: 20px;
     margin-right: 0px;
@@ -341,14 +333,14 @@ button {
   .describe {
     color: hsl(219, 9%, 45%);
   }
-  
+
   .pricing-sect {
     width: fit-content;
     display: flex;
     flex-direction: column;
     margin-bottom: 10px;
   }
-  
+
   .pricing-sect h2 span {
     color: hsl(26, 100%, 55%);
     border-radius: 3px;
@@ -360,13 +352,13 @@ button {
     padding-top: 8px;
     color: hsl(219, 9%, 45%);
   }
-  
+
   .purchase {
     height: 45px;
     display: flex;
     flex-direction: column;
   }
-  
+
   .amount {
     background-color: rgba(236, 239, 239, 0.523);
     width: 100%;
@@ -376,7 +368,7 @@ button {
     margin-right: 10px;
     border-radius: 5px;
   }
-  
+
   .add-to-cart {
     color: white;
     width: 100%;
@@ -396,13 +388,10 @@ button {
   button {
     border: none;
     background-color: transparent;
-  } 
+  }
 }
 
-
-
-
-@media screen and (min-width:600px) and (max-width: 1000px) {
+@media screen and (min-width: 600px) and (max-width: 1000px) {
   #side-bar {
     display: block;
     height: 100%;
@@ -497,7 +486,6 @@ button {
   /*right side*/
 
   .right-side {
-    border: 1px solid goldenrod;
     width: 100%;
     margin-top: 20px;
     margin-right: 0px;
@@ -521,14 +509,14 @@ button {
   .describe {
     color: hsl(219, 9%, 45%);
   }
-  
+
   .pricing-sect {
     width: fit-content;
     display: flex;
     flex-direction: column;
     margin-bottom: 10px;
   }
-  
+
   .pricing-sect h2 span {
     color: hsl(26, 100%, 55%);
     border-radius: 3px;
@@ -540,13 +528,13 @@ button {
     padding-top: 8px;
     color: hsl(219, 9%, 45%);
   }
-  
+
   .purchase {
     height: 45px;
     display: flex;
     flex-direction: column;
   }
-  
+
   .amount {
     background-color: rgba(236, 239, 239, 0.523);
     width: 100%;
@@ -556,7 +544,7 @@ button {
     margin-right: 10px;
     border-radius: 5px;
   }
-  
+
   .add-to-cart {
     color: white;
     width: 100%;
@@ -576,5 +564,5 @@ button {
   button {
     border: none;
     background-color: transparent;
-  } 
+  }
 }
