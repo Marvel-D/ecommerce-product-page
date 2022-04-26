@@ -28,15 +28,7 @@
     </nav>
   </div>
 
-  <script>
-    function openNav() {
-      document.getElementById("side-bar").style.width = "250px";
-    }
-
-    function closeNav() {
-      document.getElementById("side-bar").style.width = "0";
-    }
-  </script>
+  
   <main>
     <header>
       <button class="openbtn" onclick="openNav()"><img src="images/icon-menu.svg" alt=""></button>
@@ -126,6 +118,14 @@
         $(".submenu").slideToggle(200);
       });
     });
+
+    function openNav() {
+      document.getElementById("side-bar").style.width = "250px";
+    }
+
+    function closeNav() {
+      document.getElementById("side-bar").style.width = "0";
+    }
   </script>
   <script src="scripts/incJS.js"></script>
 </body>
