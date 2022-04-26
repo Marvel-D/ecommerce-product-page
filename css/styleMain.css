@@ -245,6 +245,7 @@ button {
     position: relative;
     align-items: center;
     padding-left: 10px;
+    border-bottom: none;
   }
   .openbtn {
     display: inline;
@@ -423,6 +424,7 @@ button {
     position: relative;
     align-items: center;
     padding-left: 10px;
+    border-bottom: none;
   }
   .openbtn {
     display: inline;
