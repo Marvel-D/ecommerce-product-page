@@ -221,6 +221,7 @@ button {
     height: 100%;
     width: 250px;
     padding-top: 12px;
+    padding-left: 10px;
     position: fixed;
     overflow-x: hidden;
     background-color: hsl(0, 0%, 100%);
@@ -231,7 +232,7 @@ button {
     margin-top: 40px;
   }
   #side-nav li {
-    margin-top: 20px;
+    border: 1px solid gold;
     list-style: none;
   }
   #side-nav li a {
