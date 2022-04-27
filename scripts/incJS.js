@@ -1,8 +1,9 @@
-var button = document.getElementById("inc-btn")
+var increase = document.getElementById("inc-btn")
+var decrease = document.getElementById("dec-btn")
 var output = document.getElementById("output")
 var number
 var counter
- 
+  
 
 function init() {
  // Convert string to primitve number
@@ -24,8 +25,21 @@ counter = number + 1
   }
   
   // Output the increment value for every click
-  button.onclick = increment
+  increase.onclick = increment
+  
+counter = number - 1
+  
+function decrement() {
+  // Increment counter
+  value = counter--
+  output.innerText = value
 }
+
+// Output the increment value for every click
+decrease.onclick = decrement  
+}
+
+
 window.onload = init
 
 
