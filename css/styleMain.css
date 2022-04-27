@@ -219,7 +219,7 @@ button {
   #side-bar {
     display: block;
     height: 100%;
-    width: 250px;
+    width: 0px;
     padding-top: 12px;
     padding-left: 10px;
     position: fixed;
@@ -397,7 +397,7 @@ button {
   #side-bar {
     display: block;
     height: 100%;
-    width: 250px;
+    width: 0px;
     padding-top: 12px;
     position: fixed;
     overflow-x: hidden;
